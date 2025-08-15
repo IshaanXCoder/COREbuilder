@@ -109,7 +109,7 @@ export function TransactionList() {
           
           <div className="relative z-10 space-y-4">
             <div className="mx-auto w-16 h-16 bg-gray-800/50 rounded-full flex items-center justify-center">
-              <Activity className="w-8 h-8 text-purple-400" />
+              <Activity className="w-8 h-8 text-orange-400" />
             </div>
             <div>
               <h3 className="text-lg font-medium text-white mb-2">No Transactions Yet</h3>

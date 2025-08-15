@@ -131,13 +131,7 @@ export function FloatingNavDemo() {
                 </motion.div>
               ))}
 
-              {/* CTA */}
-              <Link
-                href="/drag-drop"
-                className="ml-3 inline-flex items-center gap-2 px-5 py-3 rounded-2xl bg-gradient-to-r from-orange-600 to-yellow-600 text-white border border-orange-500/30 shadow-[0_8px_24px_rgba(251,146,60,0.25)] transition-colors duration-200"
-              >
-                Launch Builder
-              </Link>
+              
             </div>
 
             {/* Mobile Menu Button */}
@@ -204,14 +198,6 @@ export function FloatingNavDemo() {
                       </Link>
                     </motion.div>
                   ))}
-                  {/* CTA on mobile */}
-                  <Link
-                    href="/drag-drop"
-                    onClick={() => setIsMobileMenuOpen(false)}
-                    className="mt-2 inline-flex w-full items-center justify-center gap-2 px-5 py-4 rounded-2xl bg-gradient-to-r from-orange-600 to-yellow-600 text-white border border-orange-500/30 shadow-[0_8px_24px_rgba(251,146,60,0.25)] transition-colors duration-200"
-                  >
-                    Launch Builder
-                  </Link>
                 </div>
               </div>
             </motion.div>
